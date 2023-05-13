@@ -15,8 +15,10 @@ body {
   align-self: center;
   justify-content: center;
   flex-direction: column;
-  width: 40vw;
-  height: 40vh;
+  text-align: center;
+  width: 100vw;
+  padding-bottom: 20px;
+  /* height: 60vh; */
 
   background-color: #ffff;
 }
@@ -25,11 +27,12 @@ body {
   display: block;
   align-self: center;
   max-width: 100%;
+  height: auto;
 }
-/* 
+
 main {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-} */
+}
