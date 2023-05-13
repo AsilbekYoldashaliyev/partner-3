@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(238, 238, 238);
+}
+
+#img-div {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 40vw;
+  height: 40vh;
+
+  background-color: #ffff;
+}
+
+#image {
+  display: block;
+  align-self: center;
+  max-width: 100%;
+}
+/* 
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} */
